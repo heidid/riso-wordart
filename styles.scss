@@ -68,6 +68,7 @@ h2 {
 .char {
   width: 182px;
   height: 268px;
+  animation: animateCharacter 1s steps(1) infinite;
 }
 
 // number of pixels from the top for where the character starts
@@ -118,18 +119,16 @@ $framesPerCharacter: 10;
   }
 }
 
-@mixin char-animation($color, $char-code, $frames) {
-  .#{$color}-#{$char-code} {
-    animation: animateCharacter 1s steps(1) infinite;
-    background-image: url('spritesheets/#{$color}.png');
-    background-position-y: -1 * map.get($spritesheet-row-positions, $char-code);
-  }
-}
-
 $colors: 'cyan', 'magenta', 'yellow', 'black';
 
 @each $color in $colors {
-  @for $charCode from 65 through 90 {
-    @include char-animation($color, $charCode, $framesPerCharacter);
+  .#{$color} {
+    background-image: url('spritesheets/#{$color}.png');
+  }
+}
+
+@for $char-code from 65 through 90 {
+  .char-code-#{$char-code} {
+    background-position-y: -1 * map.get($spritesheet-row-positions, $char-code);
   }
 }

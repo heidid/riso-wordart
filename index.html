@@ -75,7 +75,8 @@ const colorInputElements = COLORS.reduce((acc, cur) => ({
 
 const createCharacterElements = (color, char) => {
   const charElement = document.createElement('div');
-  charElement.classList.add(`${color}-${char.charCodeAt(0)}`);
+  charElement.classList.add(color);
+  charElement.classList.add(`char-code-${char.charCodeAt(0)}`);
   charElement.classList.add('char');
   return charElement;
 }

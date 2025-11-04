@@ -65,6 +65,7 @@ h2 {
 .char {
   width: 182px;
   height: 268px;
+  animation: animateCharacter 1s steps(1) infinite;
 }
 
 @keyframes animateCharacter {
@@ -102,627 +103,123 @@ h2 {
     background-position-x: -2016px;
   }
 }
-.cyan-65 {
-  animation: animateCharacter 1s steps(1) infinite;
+.cyan {
   background-image: url("spritesheets/cyan.png");
+}
+
+.magenta {
+  background-image: url("spritesheets/magenta.png");
+}
+
+.yellow {
+  background-image: url("spritesheets/yellow.png");
+}
+
+.black {
+  background-image: url("spritesheets/black.png");
+}
+
+.char-code-65 {
   background-position-y: 0px;
 }
 
-.cyan-66 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-66 {
   background-position-y: -324px;
 }
 
-.cyan-67 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-67 {
   background-position-y: -654px;
 }
 
-.cyan-68 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-68 {
   background-position-y: -984px;
 }
 
-.cyan-69 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-69 {
   background-position-y: -1312px;
 }
 
-.cyan-70 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-70 {
   background-position-y: -1645px;
 }
 
-.cyan-71 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-71 {
   background-position-y: -1974px;
 }
 
-.cyan-72 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-72 {
   background-position-y: -2303px;
 }
 
-.cyan-73 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-73 {
   background-position-y: -2631px;
 }
 
-.cyan-74 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-74 {
   background-position-y: -2963px;
 }
 
-.cyan-75 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-75 {
   background-position-y: -3294px;
 }
 
-.cyan-76 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-76 {
   background-position-y: -3624px;
 }
 
-.cyan-77 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-77 {
   background-position-y: -3950px;
 }
 
-.cyan-78 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-78 {
   background-position-y: -4221px;
 }
 
-.cyan-79 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-79 {
   background-position-y: -4544px;
 }
 
-.cyan-80 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-80 {
   background-position-y: -4880px;
 }
 
-.cyan-81 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-81 {
   background-position-y: -5208px;
 }
 
-.cyan-82 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-82 {
   background-position-y: -5543px;
 }
 
-.cyan-83 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-83 {
   background-position-y: -5864px;
 }
 
-.cyan-84 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-84 {
   background-position-y: -6197px;
 }
 
-.cyan-85 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-85 {
   background-position-y: -6526px;
 }
 
-.cyan-86 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-86 {
   background-position-y: -6855px;
 }
 
-.cyan-87 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-87 {
   background-position-y: -7185px;
 }
 
-.cyan-88 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-88 {
   background-position-y: -7513px;
 }
 
-.cyan-89 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
+.char-code-89 {
   background-position-y: -7846px;
 }
 
-.cyan-90 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/cyan.png");
-  background-position-y: -8173px;
-}
-
-.magenta-65 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: 0px;
-}
-
-.magenta-66 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -324px;
-}
-
-.magenta-67 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -654px;
-}
-
-.magenta-68 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -984px;
-}
-
-.magenta-69 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -1312px;
-}
-
-.magenta-70 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -1645px;
-}
-
-.magenta-71 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -1974px;
-}
-
-.magenta-72 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -2303px;
-}
-
-.magenta-73 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -2631px;
-}
-
-.magenta-74 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -2963px;
-}
-
-.magenta-75 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -3294px;
-}
-
-.magenta-76 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -3624px;
-}
-
-.magenta-77 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -3950px;
-}
-
-.magenta-78 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -4221px;
-}
-
-.magenta-79 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -4544px;
-}
-
-.magenta-80 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -4880px;
-}
-
-.magenta-81 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -5208px;
-}
-
-.magenta-82 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -5543px;
-}
-
-.magenta-83 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -5864px;
-}
-
-.magenta-84 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -6197px;
-}
-
-.magenta-85 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -6526px;
-}
-
-.magenta-86 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -6855px;
-}
-
-.magenta-87 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -7185px;
-}
-
-.magenta-88 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -7513px;
-}
-
-.magenta-89 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -7846px;
-}
-
-.magenta-90 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/magenta.png");
-  background-position-y: -8173px;
-}
-
-.yellow-65 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: 0px;
-}
-
-.yellow-66 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -324px;
-}
-
-.yellow-67 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -654px;
-}
-
-.yellow-68 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -984px;
-}
-
-.yellow-69 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -1312px;
-}
-
-.yellow-70 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -1645px;
-}
-
-.yellow-71 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -1974px;
-}
-
-.yellow-72 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -2303px;
-}
-
-.yellow-73 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -2631px;
-}
-
-.yellow-74 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -2963px;
-}
-
-.yellow-75 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -3294px;
-}
-
-.yellow-76 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -3624px;
-}
-
-.yellow-77 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -3950px;
-}
-
-.yellow-78 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -4221px;
-}
-
-.yellow-79 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -4544px;
-}
-
-.yellow-80 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -4880px;
-}
-
-.yellow-81 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -5208px;
-}
-
-.yellow-82 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -5543px;
-}
-
-.yellow-83 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -5864px;
-}
-
-.yellow-84 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -6197px;
-}
-
-.yellow-85 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -6526px;
-}
-
-.yellow-86 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -6855px;
-}
-
-.yellow-87 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -7185px;
-}
-
-.yellow-88 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -7513px;
-}
-
-.yellow-89 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -7846px;
-}
-
-.yellow-90 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/yellow.png");
-  background-position-y: -8173px;
-}
-
-.black-65 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: 0px;
-}
-
-.black-66 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -324px;
-}
-
-.black-67 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -654px;
-}
-
-.black-68 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -984px;
-}
-
-.black-69 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -1312px;
-}
-
-.black-70 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -1645px;
-}
-
-.black-71 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -1974px;
-}
-
-.black-72 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -2303px;
-}
-
-.black-73 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -2631px;
-}
-
-.black-74 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -2963px;
-}
-
-.black-75 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -3294px;
-}
-
-.black-76 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -3624px;
-}
-
-.black-77 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -3950px;
-}
-
-.black-78 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -4221px;
-}
-
-.black-79 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -4544px;
-}
-
-.black-80 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -4880px;
-}
-
-.black-81 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -5208px;
-}
-
-.black-82 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -5543px;
-}
-
-.black-83 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -5864px;
-}
-
-.black-84 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -6197px;
-}
-
-.black-85 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -6526px;
-}
-
-.black-86 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -6855px;
-}
-
-.black-87 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -7185px;
-}
-
-.black-88 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -7513px;
-}
-
-.black-89 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
-  background-position-y: -7846px;
-}
-
-.black-90 {
-  animation: animateCharacter 1s steps(1) infinite;
-  background-image: url("spritesheets/black.png");
+.char-code-90 {
   background-position-y: -8173px;
 }
 
