@@ -104,21 +104,23 @@ $spritesheet-column-positions: (
   0px, 220px, 448px, 670px, 895px, 1120px, 1343px, 1569px, 1792px, 2016px
 );
 
-@mixin char-animation($color, $char-code, $frames) {
-  @keyframes #{$color}-#{$char-code} {
-    0% {
-      background-position-x: -1 * list.nth($spritesheet-column-positions, 10);
-    }
-    @for $i from 1 through $frames {
-      $percent: math.div($i, $frames) * 100%;
-      #{$percent} {
-        background-position-x: -1 * list.nth($spritesheet-column-positions, $i);
-      }
+$framesPerCharacter: 10;
+
+@keyframes animateCharacter {
+  0% {
+    background-position-x: -1 * list.nth($spritesheet-column-positions, 10);
+  }
+  @for $i from 1 through $framesPerCharacter {
+    $percent: math.div($i, $framesPerCharacter) * 100%;
+    #{$percent} {
+      background-position-x: -1 * list.nth($spritesheet-column-positions, $i);
     }
   }
-  
+}
+
+@mixin char-animation($color, $char-code, $frames) {
   .#{$color}-#{$char-code} {
-    animation: #{$color}-#{$char-code} 1s steps(1) infinite;
+    animation: animateCharacter 1s steps(1) infinite;
     background-image: url('spritesheets/#{$color}.png');
     background-position-y: -1 * map.get($spritesheet-row-positions, $char-code);
   }
@@ -128,6 +130,6 @@ $colors: 'cyan', 'magenta', 'yellow', 'black';
 
 @each $color in $colors {
   @for $charCode from 65 through 90 {
-    @include char-animation($color, $charCode, 10);
+    @include char-animation($color, $charCode, $framesPerCharacter);
   }
 }

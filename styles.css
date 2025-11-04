@@ -67,7 +67,7 @@ h2 {
   height: 268px;
 }
 
-@keyframes cyan-65 {
+@keyframes animateCharacter {
   0% {
     background-position-x: -2016px;
   }
@@ -103,4230 +103,625 @@ h2 {
   }
 }
 .cyan-65 {
-  animation: cyan-65 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: 0px;
 }
 
-@keyframes cyan-66 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-66 {
-  animation: cyan-66 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -324px;
 }
 
-@keyframes cyan-67 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-67 {
-  animation: cyan-67 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -654px;
 }
 
-@keyframes cyan-68 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-68 {
-  animation: cyan-68 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -984px;
 }
 
-@keyframes cyan-69 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-69 {
-  animation: cyan-69 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -1312px;
 }
 
-@keyframes cyan-70 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-70 {
-  animation: cyan-70 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -1645px;
 }
 
-@keyframes cyan-71 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-71 {
-  animation: cyan-71 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -1974px;
 }
 
-@keyframes cyan-72 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-72 {
-  animation: cyan-72 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -2303px;
 }
 
-@keyframes cyan-73 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-73 {
-  animation: cyan-73 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -2631px;
 }
 
-@keyframes cyan-74 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-74 {
-  animation: cyan-74 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -2963px;
 }
 
-@keyframes cyan-75 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-75 {
-  animation: cyan-75 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -3294px;
 }
 
-@keyframes cyan-76 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-76 {
-  animation: cyan-76 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -3624px;
 }
 
-@keyframes cyan-77 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-77 {
-  animation: cyan-77 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -3950px;
 }
 
-@keyframes cyan-78 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-78 {
-  animation: cyan-78 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -4221px;
 }
 
-@keyframes cyan-79 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-79 {
-  animation: cyan-79 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -4544px;
 }
 
-@keyframes cyan-80 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-80 {
-  animation: cyan-80 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -4880px;
 }
 
-@keyframes cyan-81 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-81 {
-  animation: cyan-81 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -5208px;
 }
 
-@keyframes cyan-82 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-82 {
-  animation: cyan-82 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -5543px;
 }
 
-@keyframes cyan-83 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-83 {
-  animation: cyan-83 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -5864px;
 }
 
-@keyframes cyan-84 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-84 {
-  animation: cyan-84 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -6197px;
 }
 
-@keyframes cyan-85 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-85 {
-  animation: cyan-85 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -6526px;
 }
 
-@keyframes cyan-86 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-86 {
-  animation: cyan-86 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -6855px;
 }
 
-@keyframes cyan-87 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-87 {
-  animation: cyan-87 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -7185px;
 }
 
-@keyframes cyan-88 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-88 {
-  animation: cyan-88 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -7513px;
 }
 
-@keyframes cyan-89 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-89 {
-  animation: cyan-89 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -7846px;
 }
 
-@keyframes cyan-90 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .cyan-90 {
-  animation: cyan-90 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/cyan.png");
   background-position-y: -8173px;
 }
 
-@keyframes magenta-65 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-65 {
-  animation: magenta-65 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: 0px;
 }
 
-@keyframes magenta-66 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-66 {
-  animation: magenta-66 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -324px;
 }
 
-@keyframes magenta-67 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-67 {
-  animation: magenta-67 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -654px;
 }
 
-@keyframes magenta-68 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-68 {
-  animation: magenta-68 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -984px;
 }
 
-@keyframes magenta-69 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-69 {
-  animation: magenta-69 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -1312px;
 }
 
-@keyframes magenta-70 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-70 {
-  animation: magenta-70 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -1645px;
 }
 
-@keyframes magenta-71 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-71 {
-  animation: magenta-71 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -1974px;
 }
 
-@keyframes magenta-72 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-72 {
-  animation: magenta-72 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -2303px;
 }
 
-@keyframes magenta-73 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-73 {
-  animation: magenta-73 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -2631px;
 }
 
-@keyframes magenta-74 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-74 {
-  animation: magenta-74 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -2963px;
 }
 
-@keyframes magenta-75 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-75 {
-  animation: magenta-75 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -3294px;
 }
 
-@keyframes magenta-76 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-76 {
-  animation: magenta-76 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -3624px;
 }
 
-@keyframes magenta-77 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-77 {
-  animation: magenta-77 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -3950px;
 }
 
-@keyframes magenta-78 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-78 {
-  animation: magenta-78 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -4221px;
 }
 
-@keyframes magenta-79 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-79 {
-  animation: magenta-79 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -4544px;
 }
 
-@keyframes magenta-80 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-80 {
-  animation: magenta-80 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -4880px;
 }
 
-@keyframes magenta-81 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-81 {
-  animation: magenta-81 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -5208px;
 }
 
-@keyframes magenta-82 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-82 {
-  animation: magenta-82 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -5543px;
 }
 
-@keyframes magenta-83 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-83 {
-  animation: magenta-83 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -5864px;
 }
 
-@keyframes magenta-84 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-84 {
-  animation: magenta-84 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -6197px;
 }
 
-@keyframes magenta-85 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-85 {
-  animation: magenta-85 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -6526px;
 }
 
-@keyframes magenta-86 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-86 {
-  animation: magenta-86 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -6855px;
 }
 
-@keyframes magenta-87 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-87 {
-  animation: magenta-87 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -7185px;
 }
 
-@keyframes magenta-88 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-88 {
-  animation: magenta-88 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -7513px;
 }
 
-@keyframes magenta-89 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-89 {
-  animation: magenta-89 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -7846px;
 }
 
-@keyframes magenta-90 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .magenta-90 {
-  animation: magenta-90 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/magenta.png");
   background-position-y: -8173px;
 }
 
-@keyframes yellow-65 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-65 {
-  animation: yellow-65 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: 0px;
 }
 
-@keyframes yellow-66 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-66 {
-  animation: yellow-66 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -324px;
 }
 
-@keyframes yellow-67 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-67 {
-  animation: yellow-67 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -654px;
 }
 
-@keyframes yellow-68 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-68 {
-  animation: yellow-68 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -984px;
 }
 
-@keyframes yellow-69 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-69 {
-  animation: yellow-69 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -1312px;
 }
 
-@keyframes yellow-70 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-70 {
-  animation: yellow-70 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -1645px;
 }
 
-@keyframes yellow-71 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-71 {
-  animation: yellow-71 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -1974px;
 }
 
-@keyframes yellow-72 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-72 {
-  animation: yellow-72 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -2303px;
 }
 
-@keyframes yellow-73 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-73 {
-  animation: yellow-73 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -2631px;
 }
 
-@keyframes yellow-74 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-74 {
-  animation: yellow-74 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -2963px;
 }
 
-@keyframes yellow-75 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-75 {
-  animation: yellow-75 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -3294px;
 }
 
-@keyframes yellow-76 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-76 {
-  animation: yellow-76 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -3624px;
 }
 
-@keyframes yellow-77 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-77 {
-  animation: yellow-77 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -3950px;
 }
 
-@keyframes yellow-78 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-78 {
-  animation: yellow-78 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -4221px;
 }
 
-@keyframes yellow-79 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-79 {
-  animation: yellow-79 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -4544px;
 }
 
-@keyframes yellow-80 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-80 {
-  animation: yellow-80 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -4880px;
 }
 
-@keyframes yellow-81 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-81 {
-  animation: yellow-81 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -5208px;
 }
 
-@keyframes yellow-82 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-82 {
-  animation: yellow-82 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -5543px;
 }
 
-@keyframes yellow-83 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-83 {
-  animation: yellow-83 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -5864px;
 }
 
-@keyframes yellow-84 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-84 {
-  animation: yellow-84 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -6197px;
 }
 
-@keyframes yellow-85 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-85 {
-  animation: yellow-85 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -6526px;
 }
 
-@keyframes yellow-86 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-86 {
-  animation: yellow-86 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -6855px;
 }
 
-@keyframes yellow-87 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-87 {
-  animation: yellow-87 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -7185px;
 }
 
-@keyframes yellow-88 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-88 {
-  animation: yellow-88 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -7513px;
 }
 
-@keyframes yellow-89 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-89 {
-  animation: yellow-89 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -7846px;
 }
 
-@keyframes yellow-90 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .yellow-90 {
-  animation: yellow-90 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/yellow.png");
   background-position-y: -8173px;
 }
 
-@keyframes black-65 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-65 {
-  animation: black-65 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: 0px;
 }
 
-@keyframes black-66 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-66 {
-  animation: black-66 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -324px;
 }
 
-@keyframes black-67 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-67 {
-  animation: black-67 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -654px;
 }
 
-@keyframes black-68 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-68 {
-  animation: black-68 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -984px;
 }
 
-@keyframes black-69 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-69 {
-  animation: black-69 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -1312px;
 }
 
-@keyframes black-70 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-70 {
-  animation: black-70 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -1645px;
 }
 
-@keyframes black-71 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-71 {
-  animation: black-71 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -1974px;
 }
 
-@keyframes black-72 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-72 {
-  animation: black-72 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -2303px;
 }
 
-@keyframes black-73 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-73 {
-  animation: black-73 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -2631px;
 }
 
-@keyframes black-74 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-74 {
-  animation: black-74 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -2963px;
 }
 
-@keyframes black-75 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-75 {
-  animation: black-75 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -3294px;
 }
 
-@keyframes black-76 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-76 {
-  animation: black-76 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -3624px;
 }
 
-@keyframes black-77 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-77 {
-  animation: black-77 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -3950px;
 }
 
-@keyframes black-78 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-78 {
-  animation: black-78 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -4221px;
 }
 
-@keyframes black-79 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-79 {
-  animation: black-79 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -4544px;
 }
 
-@keyframes black-80 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-80 {
-  animation: black-80 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -4880px;
 }
 
-@keyframes black-81 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-81 {
-  animation: black-81 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -5208px;
 }
 
-@keyframes black-82 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-82 {
-  animation: black-82 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -5543px;
 }
 
-@keyframes black-83 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-83 {
-  animation: black-83 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -5864px;
 }
 
-@keyframes black-84 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-84 {
-  animation: black-84 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -6197px;
 }
 
-@keyframes black-85 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-85 {
-  animation: black-85 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -6526px;
 }
 
-@keyframes black-86 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-86 {
-  animation: black-86 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -6855px;
 }
 
-@keyframes black-87 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-87 {
-  animation: black-87 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -7185px;
 }
 
-@keyframes black-88 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-88 {
-  animation: black-88 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -7513px;
 }
 
-@keyframes black-89 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-89 {
-  animation: black-89 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -7846px;
 }
 
-@keyframes black-90 {
-  0% {
-    background-position-x: -2016px;
-  }
-  10% {
-    background-position-x: 0px;
-  }
-  20% {
-    background-position-x: -220px;
-  }
-  30% {
-    background-position-x: -448px;
-  }
-  40% {
-    background-position-x: -670px;
-  }
-  50% {
-    background-position-x: -895px;
-  }
-  60% {
-    background-position-x: -1120px;
-  }
-  70% {
-    background-position-x: -1343px;
-  }
-  80% {
-    background-position-x: -1569px;
-  }
-  90% {
-    background-position-x: -1792px;
-  }
-  100% {
-    background-position-x: -2016px;
-  }
-}
 .black-90 {
-  animation: black-90 1s steps(1) infinite;
+  animation: animateCharacter 1s steps(1) infinite;
   background-image: url("spritesheets/black.png");
   background-position-y: -8173px;
 }
