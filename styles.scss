@@ -1,0 +1,133 @@
+@use "sass:list";
+@use 'sass:math';
+@use "sass:map";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+
+  @media screen and (min-width: 768px) {
+    padding: 100px;
+  }
+}
+
+header {
+  margin-bottom: 40px;
+  border-bottom: 1px solid black;
+}
+
+#container {
+  display: flex;
+}
+
+$left-panel-width: 250px;
+
+#input-container {
+  width: $left-panel-width;
+}
+
+#output-container {
+  width: calc(100% - $left-panel-width);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  display: block;
+}
+
+input[type="text"] {
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+#output {
+  position: relative;
+}
+.color {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  mix-blend-mode: multiply;
+}
+.char {
+  width: 182px;
+  height: 268px;
+}
+
+// number of pixels from the top for where the character starts
+$spritesheet-row-positions: (
+    65: 0px, // A
+    66: 324px, // B
+    67: 654px, // C
+    68: 984px, // D
+    69: 1312px, // E
+    70: 1645px, // F
+    71: 1974px, // G
+    72: 2303px, // H
+    73: 2631px, // I
+    74: 2963px, // J
+    75: 3294px, // K
+    76: 3624px, // L
+    77: 3950px, // M
+    78: 4221px, // N
+    79: 4544px, // O
+    80: 4880px, // P
+    81: 5208px, // Q
+    82: 5543px, // R
+    83: 5864px, // S
+    84: 6197px, // T
+    85: 6526px, // U
+    86: 6855px, // V
+    87: 7185px, // W
+    88: 7513px, // X
+    89: 7846px, // Y
+    90: 8173px, // Z
+  );
+
+$spritesheet-column-positions: (
+  0px, 220px, 448px, 670px, 895px, 1120px, 1343px, 1569px, 1792px, 2016px
+);
+
+@mixin char-animation($color, $char-code, $frames) {
+  @keyframes #{$color}-#{$char-code} {
+    0% {
+      background-position-x: -1 * list.nth($spritesheet-column-positions, 10);
+    }
+    @for $i from 1 through $frames {
+      $percent: math.div($i, $frames) * 100%;
+      #{$percent} {
+        background-position-x: -1 * list.nth($spritesheet-column-positions, $i);
+      }
+    }
+  }
+  
+  .#{$color}-#{$char-code} {
+    animation: #{$color}-#{$char-code} 1s steps(1) infinite;
+    background-image: url('spritesheets/#{$color}.png');
+    background-position-y: -1 * map.get($spritesheet-row-positions, $char-code);
+  }
+}
+
+$colors: 'cyan', 'magenta', 'yellow', 'black';
+
+@each $color in $colors {
+  @for $charCode from 65 through 90 {
+    @include char-animation($color, $charCode, 10);
+  }
+}

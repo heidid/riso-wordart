@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<title>riso wordart</title>
+<link rel="stylesheet" href="styles.css" />
+<script src="hexToCMYK.js"></script>
+<body>
+
+  <header>
+    <h1>riso wordart!</h1>
+  </header>
+
+<div id="container">
+
+<div id="input-container">
+
+<h2>input</h2>
+<form>
+
+<div class="field">
+<label for="text-input">text</label>
+<input type="text" name="text-input" id="text-input" value="HELLO" autofocus />
+</div>
+
+<div class="field">
+<label for="cyan-amount">cyan (aqua ink)</label>
+<input type="range" name="cyan-amount" id="cyan-amount" min="0" max="1" step="0.01" />
+</div>
+
+<div class="field">
+<label for="yellow-amount">yellow (yellow ink)</label>
+<input type="range" name="yellow-amount" id="yellow-amount" min="0" max="1" step="0.01" />
+</div>
+
+<div class="field">
+<label for="magenta-amount">magenta (bubblegum ink)</label>
+<input type="range" name="magenta-amount" id="magenta-amount" min="0" max="1" step="0.01" />
+</div>
+
+<div class="field">
+<label for="black-amount">black (black ink)</label>
+<input type="range" name="black-amount" id="black-amount" min="0" max="1" step="0.01" />
+</div>
+
+</form>
+
+</div>
+
+<div id="output-container">
+
+<h2>output</h2>
+
+<div id="output">
+  <div id="cyan" class="color"></div>
+  <div id="magenta" class="color"></div>
+  <div id="yellow" class="color"></div>
+  <div id="black" class="color"></div>
+</div>
+
+</div>
+</div>
+
+<script>
+const textInput = document.getElementById('text-input');
+
+const COLORS = ['cyan', 'magenta', 'yellow', 'black'];
+const layerElements = COLORS.reduce((acc, cur) => ({
+  ...acc,
+  [cur]: document.getElementById(cur)
+}), {});
+const colorInputElements = COLORS.reduce((acc, cur) => ({
+  ...acc,
+  [cur]: document.getElementById(`${cur}-amount`)
+}), {});
+
+const createCharacterElements = (color, char) => {
+  const charElement = document.createElement('div');
+  charElement.classList.add(`${color}-${char.charCodeAt(0)}`);
+  charElement.classList.add('char');
+  return charElement;
+}
+
+const setColorInput = (color, value) => {
+  layerElements[color].style.opacity = value;
+}
+
+const generateOutput = (text) => {
+  COLORS.forEach((color) => {
+    const charElements = Array.from(text).map((char) =>
+      createCharacterElements(color, char)
+    )
+    layerElements[color].innerHTML = '';
+    charElements.forEach((charElement) => {
+      layerElements[color].appendChild(charElement);
+    });
+  })
+}
+
+textInput.oninput = (e) => {
+  const text = e.target.value.toUpperCase();
+  generateOutput(text);
+};
+
+for (const color of COLORS) {
+  const initialValue = Math.random();
+  colorInputElements[color].value = initialValue;
+  setColorInput(color, initialValue);
+
+  colorInputElements[color].oninput = (e) => {
+    setColorInput(color, e.target.value);
+  };
+}
+
+generateOutput(textInput.value);
+</script>
+
+</body>
+</html>
