@@ -3,7 +3,6 @@
 <head>
 <title>riso wordart</title>
 <link rel="stylesheet" href="styles.css" />
-<script src="hexToCMYK.js"></script>
 <body>
 
   <header>
@@ -19,7 +18,7 @@
 
 <div class="field">
 <label for="text-input">text</label>
-<input type="text" name="text-input" id="text-input" value="HELLO" autofocus />
+<textarea name="text-input" id="text-input" autofocus autocapitalize="characters">HELLO</textarea>
 </div>
 
 <div class="field">
@@ -75,8 +74,11 @@ const colorInputElements = COLORS.reduce((acc, cur) => ({
 
 const createCharacterElements = (color, char) => {
   const charElement = document.createElement('div');
-  charElement.classList.add(`${color}-${char.charCodeAt(0)}`);
+  charElement.classList.add(`char-code-${char.charCodeAt(0)}`);
   charElement.classList.add('char');
+  if (char !== ' ' && char >= 'A' && char <= 'Z') {
+    charElement.classList.add(color);
+  }
   return charElement;
 }
 
@@ -84,15 +86,27 @@ const setColorInput = (color, value) => {
   layerElements[color].style.opacity = value;
 }
 
+const addChildrenToElement = (parent, listOfChildren) => {
+  listOfChildren.forEach(element => {
+    parent.appendChild(element);
+  });
+}
+
 const generateOutput = (text) => {
   COLORS.forEach((color) => {
-    const charElements = Array.from(text).map((char) =>
-      createCharacterElements(color, char)
-    )
+    const linesOfText = text.split('\n');
+    const rowElements = linesOfText.map((line) => {
+      const row = document.createElement('div');
+      row.classList.add('row');
+      const charElements = Array.from(line).map((char) =>
+        createCharacterElements(color, char)
+      )
+      addChildrenToElement(row, charElements);
+      return row;
+    })
+
     layerElements[color].innerHTML = '';
-    charElements.forEach((charElement) => {
-      layerElements[color].appendChild(charElement);
-    });
+    addChildrenToElement(layerElements[color], rowElements);
   })
 }
 

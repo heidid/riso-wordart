@@ -54,6 +54,9 @@ h2 {
   margin-bottom: 20px;
 }
 
+$char-width: 182px;
+$char-height: 268px;
+
 #output {
   position: relative;
 }
@@ -61,13 +64,22 @@ h2 {
   position: absolute;
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  flex-direction: column;
   mix-blend-mode: multiply;
+
+  .row {
+    min-height: $char-height;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
 }
+
 .char {
-  width: 182px;
-  height: 268px;
+  width: $char-width;
+  height: $char-height;
+  animation: animateCharacter 1s steps(1) infinite;
 }
 
 // number of pixels from the top for where the character starts
@@ -104,30 +116,34 @@ $spritesheet-column-positions: (
   0px, 220px, 448px, 670px, 895px, 1120px, 1343px, 1569px, 1792px, 2016px
 );
 
-@mixin char-animation($color, $char-code, $frames) {
-  @keyframes #{$color}-#{$char-code} {
-    0% {
-      background-position-x: -1 * list.nth($spritesheet-column-positions, 10);
-    }
-    @for $i from 1 through $frames {
-      $percent: math.div($i, $frames) * 100%;
-      #{$percent} {
-        background-position-x: -1 * list.nth($spritesheet-column-positions, $i);
-      }
-    }
+$framesPerCharacter: 10;
+
+@keyframes animateCharacter {
+  0% {
+    background-position-x: -1 * list.nth($spritesheet-column-positions, 10);
   }
-  
-  .#{$color}-#{$char-code} {
-    animation: #{$color}-#{$char-code} 1s steps(1) infinite;
-    background-image: url('spritesheets/#{$color}.png');
-    background-position-y: -1 * map.get($spritesheet-row-positions, $char-code);
+  @for $i from 1 through $framesPerCharacter {
+    $percent: math.div($i, $framesPerCharacter) * 100%;
+    #{$percent} {
+      background-position-x: -1 * list.nth($spritesheet-column-positions, $i);
+    }
   }
 }
 
 $colors: 'cyan', 'magenta', 'yellow', 'black';
 
 @each $color in $colors {
-  @for $charCode from 65 through 90 {
-    @include char-animation($color, $charCode, 10);
+  .#{$color} {
+    background-image: url('spritesheets/#{$color}.png');
   }
+}
+
+@for $char-code from 65 through 90 {
+  .char-code-#{$char-code} {
+    background-position-y: -1 * map.get($spritesheet-row-positions, $char-code);
+  }
+}
+
+.char-code-32 {
+  animation: unset;
 }
