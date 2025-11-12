@@ -43,6 +43,11 @@
 <input type="range" name="black-amount" id="black-amount" min="0" max="1" step="0.01" />
 </div>
 
+<div class="field">
+<label for="offset-amount">registration offset</label>
+<input type="range" name="offset-amount" id="offset-amount" min="0" max="20" step="1" value="0" />
+</div>
+
 </form>
 
 </div>
@@ -73,6 +78,7 @@ const colorInputElements = COLORS.reduce((acc, cur) => ({
   ...acc,
   [cur]: document.getElementById(`${cur}-amount`)
 }), {});
+const offsetInput = document.getElementById('offset-amount');
 
 const createCharacterElements = (color, char) => {
   const charElement = document.createElement('div');
@@ -125,6 +131,18 @@ for (const color of COLORS) {
   colorInputElements[color].oninput = (e) => {
     setColorInput(color, e.target.value);
   };
+}
+
+offsetInput.oninput = (e) => {
+  const radius = e.target.value;
+  for (const color of COLORS) {
+    const degrees = Math.floor(Math.random() * 360);
+    const radians = degrees * (Math.PI / 180);
+    const xOffset = Math.cos(radians) * radius;
+    const yOffset = Math.sin(radians) * radius;
+    layerElements[color].style.left = `${xOffset}px`;
+    layerElements[color].style.top = `${yOffset}px`;
+  }
 }
 
 generateOutput(textInput.value);
