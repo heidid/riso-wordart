@@ -1,119 +1,240 @@
 <!doctype html>
 <html>
 <head>
-<title>riso wordart</title>
-<link rel="stylesheet" href="styles.css" />
-<script src="hexToCMYK.js"></script>
+  <meta charset="utf-8" />
+  <title>riso wordart</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
 <body>
 
   <header>
     <h1>riso wordart!</h1>
+    <p>a tiny project by Heidi Dong as a part of <a href="https://www.instagram.com/kellianderson/" target="_blank">@kellianderson</a>’s animation class at <a href="https://risolab.sva.edu/" target="_blank">SVA RisoLAB</a></p>
   </header>
 
-<div id="container">
 
-<div id="input-container">
+  <div id="container">
 
-<h2>input</h2>
-<form>
+    <div id="input-container">
 
-<div class="field">
-<label for="text-input">text</label>
-<input type="text" name="text-input" id="text-input" value="HELLO" autofocus />
-</div>
+    <h2>input</h2>
 
-<div class="field">
-<label for="cyan-amount">cyan (aqua ink)</label>
-<input type="range" name="cyan-amount" id="cyan-amount" min="0" max="1" step="0.01" />
-</div>
+      <form>
 
-<div class="field">
-<label for="yellow-amount">yellow (yellow ink)</label>
-<input type="range" name="yellow-amount" id="yellow-amount" min="0" max="1" step="0.01" />
-</div>
+        <div class="field">
+          <div class="input" id="text-input-wrapper">
+            <label for="text-input"><strong>text</strong> (set in <a href="https://github.com/googlefonts/spacemono" target="_blank">space mono</a>)</label>
+            <details>
+              <summary>supported characters</summary>
+              <code id="supported-characters"></code>
+            </details>
+            <textarea name="text-input" id="text-input" autofocus autocapitalize="characters">RISOOO</textarea>
+          </div>
+        </div>
 
-<div class="field">
-<label for="magenta-amount">magenta (bubblegum ink)</label>
-<input type="range" name="magenta-amount" id="magenta-amount" min="0" max="1" step="0.01" />
-</div>
+        <div class="field">
+          <img src="icons/aqua.png" />
+          <div class="input">
+            <label for="cyan-amount"><strong>cyan</strong> (aqua ink)</label>
+            <input type="range" name="cyan-amount" id="cyan-amount" min="0" max="1" step="0.01" value="1" />
+          </div>
+        </div>
 
-<div class="field">
-<label for="black-amount">black (black ink)</label>
-<input type="range" name="black-amount" id="black-amount" min="0" max="1" step="0.01" />
-</div>
+        <div class="field">
+          <img src="icons/yellow.png" />
+          <div class="input">
+            <label for="yellow-amount"><strong>yellow</strong> (yellow ink)</label>
+            <input type="range" name="yellow-amount" id="yellow-amount" min="0" max="1" step="0.01" value="1" />
+          </div>
+        </div>
 
-</form>
+        <div class="field">
+          <img src="icons/bubblegum.png" />
+          <div class="input">
+            <label for="magenta-amount"><strong>magenta</strong> (bubblegum ink)</label>
+            <input type="range" name="magenta-amount" id="magenta-amount" min="0" max="1" step="0.01" value="0" />
+          </div>
+        </div>
 
-</div>
+        <div class="field">
+          <img src="icons/black.png" />
+          <div class="input">
+            <label for="black-amount"><strong>black</strong> (black ink)</label>
+            <input type="range" name="black-amount" id="black-amount" min="0" max="1" step="0.01" value="0" />
+          </div>
+        </div>
 
-<div id="output-container">
+        <div class="field">
+          <img src="icons/registration.png" />
+          <div class="input">
+            <label for="offset-amount"><strong>registration offset</strong></label>
+            <input type="range" name="offset-amount" id="offset-amount" min="0" max="20" step="1" value="0" />
+          </div>
+        </div>
 
-<h2>output</h2>
+        <div class="field">
+          <img src="icons/size.png" />
+          <div class="input">
+            <label for="size-input"><strong>size</strong></label>
+            <input type="range" name="size-input" id="size-input" min="10" max="268" step="1" value="268" />
+          </div>
+        </div>
 
-<div id="output">
-  <div id="cyan" class="color"></div>
-  <div id="magenta" class="color"></div>
-  <div id="yellow" class="color"></div>
-  <div id="black" class="color"></div>
-</div>
+      </form>
 
-</div>
-</div>
+    </div>
+
+    <div id="output-container">
+
+      <h2>output <button id="export-button">export gif!</button></h2>
+
+      <canvas id="output-canvas"></canvas>
+
+      <div id="output">
+        <div id="cyan" class="color"></div>
+        <div id="magenta" class="color"></div>
+        <div id="yellow" class="color"></div>
+        <div id="black" class="color"></div>
+      </div>
+
+    </div>
+    
+  </div>
+
+<script src="constants.js"></script>
+<script src="gif.js"></script>
+<script src="gif.worker.js"></script>
+<script src="export-button.js"></script>
 
 <script>
+document.getElementById('supported-characters').innerHTML = SUPPORTED_CHARACTERS.join('')
+  
 const textInput = document.getElementById('text-input');
 
-const COLORS = ['cyan', 'magenta', 'yellow', 'black'];
-const layerElements = COLORS.reduce((acc, cur) => ({
-  ...acc,
-  [cur]: document.getElementById(cur)
-}), {});
+const sizeInput = document.getElementById('size-input');
+
 const colorInputElements = COLORS.reduce((acc, cur) => ({
   ...acc,
   [cur]: document.getElementById(`${cur}-amount`)
 }), {});
 
-const createCharacterElements = (color, char) => {
-  const charElement = document.createElement('div');
-  charElement.classList.add(color);
-  charElement.classList.add(`char-code-${char.charCodeAt(0)}`);
-  charElement.classList.add('char');
-  return charElement;
+const offsetInput = document.getElementById('offset-amount');
+const colorLayerOffsets = COLORS.reduce((acc, cur) => ({
+  ...acc,
+  [cur]: {
+    xOffset: 0,
+    yOffset: 0
+  }
+}), {})
+
+offsetInput.oninput = (e) => {
+  const radius = e.target.value;
+  for (color of COLORS) {
+    const degrees = Math.floor(Math.random() * 360);
+    const radians = degrees * (Math.PI / 180);
+    colorLayerOffsets[color].xOffset = Math.cos(radians) * radius;
+    colorLayerOffsets[color].yOffset = Math.sin(radians) * radius;
+  }
 }
 
-const setColorInput = (color, value) => {
-  layerElements[color].style.opacity = value;
+const canvas = document.getElementById('output-canvas');
+const ctx = canvas.getContext('2d');
+
+const SPRITESHEETS = COLORS.reduce((acc, color) => {
+  const spritesheet = new Image();
+  spritesheet.src = `spritesheets/${color}.png`;
+  return {
+    ...acc,
+    [color]: spritesheet
+  }
+}, {});
+
+let currentFrame = 1;
+let lastFrameTime = 0;
+
+const animate = (timestamp) => {
+  if (!lastFrameTime) lastFrameTime = timestamp;
+  const delta = timestamp - lastFrameTime;
+
+  if (delta > FRAME_DURATION) {
+    currentFrame = (currentFrame + 1) % FRAMES_PER_CHARACTER;
+    if (currentFrame === 0) {
+      currentFrame = 1;
+    }
+    lastFrameTime = timestamp;
+  }
+
+  const inputs = {
+    text: textInput.value.toUpperCase(),
+    colorAmounts: COLORS.reduce((acc, color) => ({
+      ...acc,
+      [color]:  colorInputElements[color].value
+    }), {}),
+    colorLayerOffsets,
+    scale: sizeInput.value / CHAR_HEIGHT,
+  }
+
+  drawFrame(currentFrame, inputs)
+  requestAnimationFrame(animate);
 }
 
-const generateOutput = (text) => {
-  COLORS.forEach((color) => {
-    const charElements = Array.from(text).map((char) =>
-      createCharacterElements(color, char)
-    )
-    layerElements[color].innerHTML = '';
-    charElements.forEach((charElement) => {
-      layerElements[color].appendChild(charElement);
-    });
-  })
+const drawBackground = () => {
+  ctx.globalAlpha = 1;
+  ctx.fillStyle = "white";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
 }
 
-textInput.oninput = (e) => {
-  const text = e.target.value.toUpperCase();
-  generateOutput(text);
-};
+const drawFrame = (frameNumber, inputs) => {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-for (const color of COLORS) {
-  const initialValue = Math.random();
-  colorInputElements[color].value = initialValue;
-  setColorInput(color, initialValue);
+  const linesOfText = inputs.text.split('\n');
+  const outputCharWidth = CHAR_WIDTH * inputs.scale;
+  const outputCharHeight = CHAR_HEIGHT * inputs.scale;
 
-  colorInputElements[color].oninput = (e) => {
-    setColorInput(color, e.target.value);
-  };
+  canvas.width = outputCharWidth * linesOfText
+    .map(line => line.length)
+    .reduce((acc, cur) => Math.max(acc, cur))
+    + 2 * MAX_OFFSET * inputs.scale;
+
+  canvas.height = outputCharHeight * linesOfText.length
+    + 2 * MAX_OFFSET * inputs.scale;
+
+  drawBackground();
+
+  ctx.globalCompositeOperation = "multiply";
+
+  for (color of COLORS) {
+    ctx.globalAlpha = inputs.colorAmounts[color];
+
+    for (let i = 0; i < linesOfText.length; i++) {
+      const line = linesOfText[i];
+
+      for (let j = 0; j < line.length; j++) {
+        const char = line[j];
+
+        ctx.drawImage(
+          SPRITESHEETS[color],
+          SPRITESHEET_COLUMN_POSITIONS[frameNumber - 1], // source x
+          SPRITESHEET_ROW_POSITIONS[char.charCodeAt(0)], // source y
+          CHAR_WIDTH, // source width
+          CHAR_HEIGHT, // source height
+          j * outputCharWidth + inputs.colorLayerOffsets[color].xOffset * inputs.scale + MAX_OFFSET * inputs.scale, // destination x
+          i * outputCharHeight + inputs.colorLayerOffsets[color].yOffset * inputs.scale + MAX_OFFSET * inputs.scale, // destination y
+          outputCharWidth, // destination width
+          outputCharHeight// destination height
+        );
+      }
+    }
+  }
 }
 
-generateOutput(textInput.value);
+requestAnimationFrame(animate);
 </script>
+
 
 </body>
 </html>
