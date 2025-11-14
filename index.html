@@ -2,7 +2,12 @@
 <html>
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <link rel="icon" href="favicon.ico" />
   <title>riso wordart</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
@@ -13,7 +18,13 @@
 
   <header>
     <h1>riso wordart!</h1>
-    <p>a tiny project by Heidi Dong as a part of <a href="https://www.instagram.com/kellianderson/" target="_blank">@kellianderson</a>’s animation class at <a href="https://risolab.sva.edu/" target="_blank">SVA RisoLAB</a></p>
+    <p>a tiny project by Heidi Dong as a part of <a href="https://www.instagram.com/kellianderson/" target="_blank">@kellianderson</a>’s animation class at <a href="https://risolab.sva.edu/" target="_blank">SVA RisoLAB</a>.</p>
+    <details>
+      <summary>more details…</summary>
+      <p>risograph printers print one color at a time. we can achieve a "CMYK" effect by layering equivalent inks.</p>
+      <p>in this tool, I wanted to take advantage of digital media to simulate riso-printed text and try applying the animation technique. I created <a href="https://heidid.github.io/riso-wordart/spritesheets/cyan.png" target="_blank">spritesheets</a> by risoprinting repeated characters and scanning those prints. the varied, imperfect texture of a riso print lends itself to a fun analog style.</p>
+      <p>in code, the output is generated in an HTML Canvas and exported using <a href="https://github.com/jnordberg/gif.js/" target="_blank">gif.js</a>.</p>
+    </details>
   </header>
 
 
@@ -27,7 +38,7 @@
 
         <div class="field">
           <div class="input" id="text-input-wrapper">
-            <label for="text-input"><strong>text</strong> (set in <a href="https://github.com/googlefonts/spacemono" target="_blank">space mono</a>)</label>
+            <label for="text-input"><strong>text</strong> (set in <a href="https://github.com/googlefonts/spacemono" target="_blank">space mono</a> bold)</label>
             <details>
               <summary>supported characters</summary>
               <code id="supported-characters"></code>
@@ -45,18 +56,18 @@
         </div>
 
         <div class="field">
-          <img src="icons/yellow.png" />
-          <div class="input">
-            <label for="yellow-amount"><strong>yellow</strong> (yellow ink)</label>
-            <input type="range" name="yellow-amount" id="yellow-amount" min="0" max="1" step="0.01" value="1" />
-          </div>
-        </div>
-
-        <div class="field">
           <img src="icons/bubblegum.png" />
           <div class="input">
             <label for="magenta-amount"><strong>magenta</strong> (bubblegum ink)</label>
             <input type="range" name="magenta-amount" id="magenta-amount" min="0" max="1" step="0.01" value="0" />
+          </div>
+        </div>
+
+        <div class="field">
+          <img src="icons/yellow.png" />
+          <div class="input">
+            <label for="yellow-amount"><strong>yellow</strong> (yellow ink)</label>
+            <input type="range" name="yellow-amount" id="yellow-amount" min="0" max="1" step="0.01" value="1" />
           </div>
         </div>
 
